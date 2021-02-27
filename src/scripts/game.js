@@ -15,16 +15,16 @@ const config = {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
     width: DEFAULT_WIDTH,
-    height: DEFAULT_HEIGHT
+    height: DEFAULT_HEIGHT,
   },
   scene: [PreloadScene, MainScene],
   physics: {
     default: 'arcade',
     arcade: {
       debug: false,
-      gravity: { y: 400 }
-    }
-  }
+      gravity: { y: 400 },
+    },
+  },
 }
 
 window.addEventListener('load', () => {
